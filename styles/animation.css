@@ -37,3 +37,8 @@
         transform: rotate(-360deg);
     }
 }
+@keyframes warning{
+    to{
+        transform: scale(1.09);
+    }
+}
