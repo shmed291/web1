@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+    background-color: #14252c;
+    box-shadow: 0 1px 10px 3px;
+}
+.social p{
+    margin: 5px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.social{
+    text-align: center;
+}
+.icons a img{
+    width: 50px;
+}
+.icons a{
+    margin: 0 10px;
+}
+
+.creator{
+    font-size: 20px;
+    text-transform:capitalize;
+}
+.creator span{
+    font-weight: bold;
+    text-transform: uppercase;
+}

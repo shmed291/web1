@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #14252c;
+    box-shadow: 0 1px 10px 3px;
+    
+}
+.logo{
+    display: flex;
+}
+.logo p{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 62px;
+    top: -28px;
+    font-weight: 700;
+    color: white;
+}
+.logo img{
+    width: 70px;
+    animation-name: rotat;
+    animation-timing-function:linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.name{
+    margin-right: 26px;
+}
+.name h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e6cab3;
+    filter: drop-shadow(0 0 10px rgb(0, 0, 0));
+}
+.main{
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    margin-right: 15px;
+}
+.main a{
+    color: #273c41;
+}
+.sider{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background-color: #273c41;
+    right: -270px;
+    z-index: 3;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px 3px black;
+}
+
+.sider ul{
+    list-style: none;
+margin-right: 40px;
+
+}
+.sider ul li{
+    margin: 60PX 0 0 0;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: #e6cab3;
+}
+.sider ul li a{
+    color: #e6cab3;
+
+}
+.sider ul li::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 3px;
+
+}
+.sider-open{
+    right: 0;
+}
+.no-scrool{
+    overflow: hidden;
+}
+.header a{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 50px;
+    color: #14252c;
+}
