@@ -22,29 +22,7 @@ let yassinImg = ""
 aboutImg.setAttribute("src",myImg)
 
 
-let a = document.getElementById("myImg")
-a.setAttribute("src",myImg)
 
-
-//my name
-
-let name = "Ahmed"
-let name2 = "Yassin"
-
-let myName = document.getElementById("name")
-
-let yassinName = document.getElementById("yassinName")
-yassinName.textContent = name2
-myName.textContent = name
-//myNote
-let title = "😍😍😎";
-let title2 = "👑";
-let myNote = document.getElementById("myNote")
-
-let myNote2 = document.getElementById("myNote2")
-
-myNote.textContent = title
-myNote2.textContent = title2
 //siderSocial
 document.getElementById("siderSocial").onclick = function(){
     document.querySelector('.social').scrollIntoView({behavior:('smooth')})

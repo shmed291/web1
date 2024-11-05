@@ -1,15 +1,21 @@
 .all{
     background-color: #45575b;
+    background-color: rgb(85, 116, 124);
 }
 .my-projects{
-    display: flex;
-    flex-direction: column;
     align-items: center;
     margin-top: px;
-    background-color: #273c41;
+    background-color: rgb(85, 116, 124);
     border-radius: 10px 10px 0 0;
-    background-color: #45575b;
     padding: 10px 0;
+    text-align: center;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.cards{
+    display: flex;
+    overflow:scroll;
 
 }
 .card{
@@ -22,7 +28,7 @@
     align-items: center;
     flex-direction: column;
     margin: 10px;
-    background-image: linear-gradient(to right,#273c41,#36545c);
+    background-color:transparent ;
 }
 .card p{
     width: 230px;
@@ -58,7 +64,7 @@
     margin: 20px;
     font-weight: 700;
     position: relative;
-color: #a3a39b;
+color: #2c3e50;
 }
 .my-projects div .title::after{
     content: "";
@@ -75,15 +81,16 @@ color: #a3a39b;
     position: relative;
     top: -60px;
     background-color: #273c41;
-    background-image: linear-gradient(to top,#7d8586,#273c41);
+    background-image: linear-gradient(to top,rgb(85, 116, 124),#c9ccd4);
     padding: 10px;
     filter: drop-shadow(0 0 5px);
 
 }
 .about .img{
     text-align: center;
+    position: relative;
 }
-.about .img p{
+.about .img > p{
     position: relative;
     top: -40px;
     font-size: 30px;
@@ -92,7 +99,7 @@ color: #a3a39b;
     font-weight: 700;
     color: #a3a39b;
 }
-.about .img p::after{
+.about .img > p::after{
     content: "";
     position: absolute;
     left: 0;
@@ -112,7 +119,7 @@ color: #a3a39b;
     box-shadow: 0 0 10px 1px;
 }
 .about{
-    background-color: #45575b;
+    background-color: rgb(85, 116, 124);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,59 +133,6 @@ color: #a3a39b;
     font-weight: 700;
     color: #a3a39b;
 }
-.note{
-    display: flex;
-    margin: 50px 20px 10px 20px;
-    background-color: #273c41;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 3px;
-    background-image: linear-gradient(to right,#273c41,#36545c);
-}
-.notes{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1px;
-    background-color: #45575b;
-}
-.note div img{
-    width: 80px;
-    height: 80px;
-    border-radius: 20px;
-}
-
-.notes > p{
-    text-align: center;
-    align-self: center;
-    font-size: 30px;
-    text-transform: capitalize;
-    margin: 20px;
-    font-weight: 700;
-color: #a3a39b;
-position: relative;
-
-}
-.notes > p::after{
-
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    height: 4px;
-    width: 100%;
-    background-color: #a3a39b;
-}
-.notes .note .post p:first-child{
-    margin: 10px;
-    font-size: 25px;
-    color:darkgrey;
-    font-weight: 700;
-}
-.notes .note .post p:last-child{
-    margin: 10px;
-    font-size: 20px;
-    color:#a3a39b;
-}
 .about .interests img{
     width: 100px;
     margin: 10px;
@@ -190,7 +144,7 @@ position: relative;
 }
 .about .interests p{
     font-size: 30px;
-    color: #a3a39b;
+    color: #2c3e50;
     position: relative;
     width: fit-content;
     align-self: center;

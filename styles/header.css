@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #14252c;
+    background-color: rgb(58, 81, 87);
     box-shadow: 0 1px 10px 3px;
     
 }
@@ -30,7 +30,7 @@ header{
 .name h2{
     text-transform: uppercase;
     font-weight: 900;
-    color: #e6cab3;
+    color: #818181;
     filter: drop-shadow(0 0 10px rgb(0, 0, 0));
 }
 .main{
@@ -46,7 +46,7 @@ header{
     position: fixed;
     width: 250px;
     height: 100vh;
-    background-color: #273c41;
+    background-color: rgb(58, 81, 87);
     right: -270px;
     z-index: 3;
     transition: 0.4s;
