@@ -44,12 +44,12 @@
     width: fit-content;
     font-size: 30px;
     font-weight: 900;
-    background-color: #82401d;
+    background-color: #273c41;
     border: none;
     border-radius: 10px;
     margin: 10px 0;
     padding: 5px 10px ;
-    color: #e6cab3;
+    color: #c9ccd4;
     box-shadow: 0 0 10px 1px black;
 }
 .card label{
@@ -81,7 +81,7 @@
     position: relative;
     top: -60px;
     background-color: #273c41;
-    background-image: linear-gradient(to top,rgb(85, 116, 124),#c9ccd4);
+    background-image: linear-gradient(to top,rgb(85, 116, 124),#0e1a1f);
     padding: 10px;
     filter: drop-shadow(0 0 5px);
 

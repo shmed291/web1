@@ -26,15 +26,19 @@ color: #4d4d4d;
 }
 .my-pros button{
     margin: 30px;
-    padding: 10px 20px;
+    padding: 10px 50px;
     font-size: 30px;
     border: none;
-    background-color: #82401d;
+    background-color: #0e1a1f;
     border-radius: 20px;
     box-shadow: 0 0 10px 1px black;
     font-weight: 700;
-    color: #e6cab3;
+    color: #c9ccd4;
     transition: 0.2s;
+
+}
+.my-pros button::after{
+    content: "";
 }
 .my-pros button:active{
     transform: scale(0.8);
